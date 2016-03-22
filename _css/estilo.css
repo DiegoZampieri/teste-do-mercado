@@ -73,6 +73,11 @@ table th{
 	background:#dddddd;
 }
 
+table td{
+	font-family:"Times New Roman", Times, serif;
+	font-style: italic;
+}
+
 section#fot{
 	background: url("../_imagens/ceu_azul.jpg");
 }
