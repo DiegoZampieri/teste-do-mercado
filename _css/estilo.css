@@ -114,6 +114,11 @@ fieldset{
     margin: 20px;
 }
 
+/* login */
+section#log{
+	background: url("../_imagens/ceu_azul.jpg");
+}
+
 /* footer */
 footer{
 	background:rgba(118,203,243,.5);

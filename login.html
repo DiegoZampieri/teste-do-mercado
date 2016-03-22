@@ -2,17 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8"/>
-	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    
-    <meta name="description" content="See this example of responsive header without using javascript. Using only html and css. by Palloi Hofmann">
-    <meta name="keywords" content="css4html, css+for+html, css 4 html, css4, css4 html, css, css3, html, html5" />
-
-    <meta property="og:image" content="http://palloi.github.io/responsive-header-only-css/assets/images/image-shared.png" />
-    <meta property="og:keywords" content="css4html, css+for+html, css 4 html, css4, css4 html, css, css3, html, html5" />
-    <meta property="og:description" content="See this example of responsive header without using javascript. Using only html and css. by Palloi Hofmann" />
-
+	
 	<title>Teste do mercado</title>
 	
 	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
@@ -24,17 +14,61 @@
 	<script src="_javascript/funcoes.js"></script>
 </head>
 <body>
-	<header>
-		<h1 class="float-1"><a href="login.html" title="Login"> Login </a></h1>
-		<input type="checkbox" id="control-nav" />
-		<label for="control-nav" class="control-nav"></label>
-		<label for="control-nav" class="control-nav-close"></label>
+	<section class="main" id="log">
+	<div class="container">
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+		<article class="col-md-8">
+			<form method="post" id="fCadastro" action="a.html">
+                    <fieldset id="usuario"><legend>Cadastrar</legend>
+					<p><label for="cNome">Nome: </label><input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome"/></p>
+                    <p><label for="cCpf">CPF: </label><input type="text" name="tCpf" id="cCpf" size="11" maxlength="20" placeholder="CPF"/></p>
+                    <p><label for="cEmail">Email: </label><input type="email" name="tEmail" id="cEmail" size="30" maxlength="30" placeholder="E-mail"/></p>
+					<p><label for="cNus">Nome Usuario: </label><input type="text" name="tNus" id="cNus" size="8" maxlength="8" placeholder="Max 8 caracteres"/></p>
+					<p><label for="cSen">Senha: </label><input type="password" name="tSen" id="cSen" size="8" maxlength="8" placeholder="De 6 a 8"/></p>
+					
+                <input type="image" name="tEnviar" src="_imagens/botao_cadastrar.jpg"/>
+			</form>
+		</article>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<aside class="col-md-4">
+			<form method="post" id="fLogin" action="a.html">
+                    <fieldset id="usuario"><legend>Login</legend>
+					<p><label for="cNus">Nome Usuario: </label><input type="text" name="tNus" id="cNus" size="8" maxlength="8" placeholder="Max 8 caracteres"/></p>
+					<p><label for="cSen">Senha: </label><input type="password" name="tSen" id="cSen" size="8" maxlength="8" placeholder="De 6 a 8"/></p>
+					
+                <input type="image" name="tEnviar" src="_imagens/botao_login.jpg"/>
+			</form>
+		</aside>
 		
-		<nav class="float-r" id="menu">
-			<ul class="list-auto">
-				<li><a href="index.html">Produtos</a></li>
-				<li><a href="compra.html">Compra</a></li>
-				<li><a href="venda.html">Venda</a></li>
-			</ul>
-		</nav>
-	</header>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+	</section>
+	<footer>
+	<p>Desenvolvido por: <a href="https://www.facebook.com/diego.zampieri.5" target="_blank">Diego Zampieri</a></p>
+	</footer>
+</body>
+</html>
